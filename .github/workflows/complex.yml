@@ -3,12 +3,12 @@ name: Complex
 on: push
 
 jobs:
- ubuntu:
-   runs-on: ubuntu-latest
-   steps:
-   - run: date
+  ubuntu:
+  runs-on: ubuntu-latest
+  steps:
+  - run: date
  windows:
-    runs-on: windows-latest
+   runs-on: windows-latest
    steps:
    - run: date
  macos:
